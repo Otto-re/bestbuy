@@ -32,7 +32,7 @@ class Product:
 
     def show(self) -> str:
         #zeigt beschreibung des produkts
-        return f"{self.name}, Preis: {self.price}, Menge: {self.quantity}"
+        return f"{self.name}, Price: {self.price}, Quantity: {self.quantity}"
 
     def buy(self, quantity) -> float:
         #kauf eine bestimmte menge und gibt gesammtpreis zurück
